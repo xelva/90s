@@ -119,3 +119,12 @@ h1 {
 .menu a:hover {
     color: rgb(247, 149, 165);
 }
+
+
+
+@media (max-width: 350px) { 
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 800;
+    font-size: 2em;
+    text-transform: uppercase;
+}
