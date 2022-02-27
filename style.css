@@ -122,7 +122,7 @@ h1 {
 
 
 
-@media (max-width: 350px) { 
+@media screen and (max-width: 350px) { 
     font-family: 'Press Start 2P', cursive;
     font-weight: 800;
     font-size: 2em;
