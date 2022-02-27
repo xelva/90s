@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-image: url(images/tile3.jpg);
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    font-family: 'Press Start 2P', cursive;
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+    font-family: 'Press Start 2P', cursive;
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
+  
+  .title-word-3 {
+    font-family: 'Press Start 2P', cursive;
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+  }
+  
+  .title-word-4 {
+    font-family: 'Press Start 2P', cursive;
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  
+  .container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    background-color: #86faec;
+    border-radius: 5px;
+  }
+  
+  .title {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 800;
+    font-size: 3em;
+    text-transform: uppercase;
+  }
+
+  .menuContainer {
+      
+      display: flex;
+      justify-content: center;
+      background-color: white;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 10px;
+     
+  }
+
+  .menu {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: dashed 2px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+    font-size: 1.5em;
+    font-family: 'Press Start 2P', cursive;;
+}
+
+.menu a {
+    color: pink;
+    
+}
+
+.menu:hover {
+    border-style: dotted;
+    color: #679efd;
+    
+}
+
+.menu a:hover {
+    color: rgb(247, 149, 165);
+}
