@@ -256,7 +256,7 @@ h1 {
   width: 30%;
   background-color: rgba(126, 87, 194, .8);
   color: white;
-  min-height: 200px;
+  min-height: 250px;
   border-radius: 5px;
   max-width: 300px;
   min-width: 250px;
@@ -297,9 +297,21 @@ h1 {
   color:#86faec;
 }
 
+.form-label2 {
+  width: 95%;
+  color: purple;
+}
+
 .submit-label {
   margin-top: 10px;;
 }
+
+
+.beanie-store {
+  width: 100%;
+}
+
+
 
 .main-content {
   width: 70%;
@@ -320,10 +332,11 @@ h1 {
 .beanie {
   flex-grow: 1;
   border-radius: 5px;
-  -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  min-width: 30%;
+  max-width: 300px;
+  background: rgba(255, 255, 255, .9);
+  border-radius: 5px;
+  
 
 }
 
